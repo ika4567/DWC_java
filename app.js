@@ -53,11 +53,18 @@
 
 // for文
 
-let i;
-let num = 0;
+// let i;
+// let num = 0;
 
-for(i = 1; i < 11; i++){
-  num += i
-}
+// for(i = 1; i < 11; i++){
+//   num += i
+// }
 
-alert('1から10まで足し算した結果は' + num + 'です');
+// alert('1から10まで足し算した結果は' + num + 'です');
+
+
+// 確認問題
+alert(20 + 2);
+alert(20 - 2);
+alert(20 * 2);
+alert(20 / 2);

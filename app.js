@@ -92,6 +92,11 @@
 // 複数の関数を定義（入力した値を処理する関数を作成）
 let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください');
 
+while((user_hand != "グー") && (user_hand != "チョキ") && (user_hand != "パー")){
+  alert('グー・チョキ・パーのいずれかを入力してください');
+  user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください');
+}
+
 let js_hand = getJShand(); //じゃんけんの手をランダムに生成する関数を呼び出す
 
 let judge = winlose(user_hand, js_hand); //ユーザの手とJavaScriptのじゃんけんの手を比べる関数を呼び出す

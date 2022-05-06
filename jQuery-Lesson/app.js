@@ -13,6 +13,9 @@ $(function(){
   // $('.box1').slideUp(); //下から上へスライドさせる(表示されてる要素を隠す)アニメーション
 
   // 非表示の要素を表示させる
-  $('.box1').show();
-  $('.box1').css('background-color','#0000FF');
+  // $('.box1').show();
+  // $('.box1').css('background-color','#0000FF');
+
+  // 表示されている要素を非表示にする
+  $('.box1').hide();
 });
